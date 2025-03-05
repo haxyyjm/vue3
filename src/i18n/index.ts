@@ -1,19 +1,17 @@
 import { createI18n } from "vue-i18n";
 import enMessages from "./en/messages.json";
+import zhCNMessages from "./zh-CN/messages.json";
+import zhTWMessages from "./zh-TW/messages.json";
 
 const messages = {
   en: enMessages,
-  zh: {
-    message: {
-      hello: "你好，世界",
-      welcome: "欢迎使用 Vue.js",
-    },
-  },
+  "zh-CN": zhCNMessages,
+  "zh-TW": zhTWMessages,
 };
 
 const i18n = createI18n({
   legacy: false,
-  locale: "zh",
+  locale: "zh-CN",
   fallbackLocale: "en",
   messages,
 });

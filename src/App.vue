@@ -5,7 +5,7 @@ import { useI18n } from "vue-i18n";
 const { t, locale } = useI18n();
 
 const toggleLanguage = () => {
-  locale.value = locale.value === "zh" ? "en" : "zh";
+  locale.value = locale.value === "zh-CN" ? "en" : "zh-CN";
 };
 </script>
 

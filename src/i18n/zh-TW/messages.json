@@ -1,0 +1,6 @@
+{
+  "message": {
+    "hello": "你好，世界",
+    "welcome": "歡迎使用 Vue.js"
+  }
+}
